@@ -17,5 +17,10 @@ body{
     border-radius: 8px;
 }
 
-/* CAROUSEL SECTION */
+/* EXPERIENCE */
 
+.experience img{
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+}
