@@ -24,3 +24,40 @@ body{
     border: 0;
     border-radius: 8px;
 }
+
+/* CURATED CARDS */
+
+.curated .card{
+    background-color: #191919;
+    border: 0;
+    margin: auto;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Ensure text is centered */
+}
+
+.curated .card-icon{
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #1b1f2e;
+    border: 0;
+    border-radius: 8px;
+    line-height: 70px;
+    display: flex; /* Use flexbox for icon alignment */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+}
+
+.curated .card-title{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px; /* Add spacing between the icon and text */
+    text-align: center; /* Ensure text is centered */
+}
+.curated .card-title p{
+    text-align: center;
+}
