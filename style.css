@@ -226,3 +226,75 @@ body{
     font-size: 21.5px;
     color: #fff;
 }
+
+/* BANNER SECTION  */
+
+
+/* HOT-DEAL section */
+.hot-deal-header{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* HOT OFFER section */
+.cp-header {
+    display: flex;
+    flex: left;
+    margin-bottom: 30px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hot-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.hot-img{
+    border-radius: 10px;
+}
+
+/* SUMMER DEALS SECTION  */
+.summer-header {
+    display: flex;
+    flex: left;
+    margin-bottom: 30px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* DEALS OF CROMA APPLIANCES SECTION */
+
+.appliance-header {
+    display: flex;
+    flex: left;
+    margin-bottom: 30px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.appliance-img {
+    border-radius: 10px;
+}
+
+/* DEALS OF THE DAY SECTION */
+
+.deals-header {
+    display: flex;
+    flex: left;
+    margin-bottom: 30px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.deals-day-img {
+    border-radius: 10px;
+}
+
