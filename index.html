@@ -25,120 +25,103 @@
     <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg bg-black">
-            <div class="container">
-                <a class="navbar-brand text-white" href="#"><img src="./assets/img/logo.png" class="logo"></a>
-                <div class="navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-6" aria-current="page" href="#"><i
-                                    class="fa-solid fa-bars"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-6 mx-1" href="#">Menu</a>
-                        </li>
-                    </ul>
-                </div>
-                <input type="text" class="form border border-0" placeholder="What are you looking for?"
-                    aria-label="Search">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-location-dot"></i></a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-user"></i></a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">
+            <img src="./assets/img/logo.png" class="logo" alt="Croma Logo">
+        </a>
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
+        </button>
+        <ul class="navbar-nav me-auto d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-6" aria-current="page" href="#"><i class="fa-solid fa-bars"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-6 mx-1" href="#">Menu</a>
+                </li>
+        </ul>
+        <!-- Search Input (Outside Collapsible Navbar) -->
+        <form class="d-flex ms-3 flex-grow-1">
+            <input type="text" class="form-control border-0 px-3 py-2" placeholder="What are you looking for?" aria-label="Search" style="font-size: 1.2rem;">
+        </form>
+        <!-- Collapsible Navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link text-white fs-5" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     </header>
 
-        <!-- ///////   BANNER SECTION   ////// -->
-    <section class="banner">
-        <div class="container">
-            <div class="row">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                            aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                            aria-label="Slide 7"></button>
+    <!-- ///////   BANNER SECTION   ////// -->
 
-                    </div>
-                    <div class="carousel-inner">
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image1.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
 
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image2.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item active">
-                            <img src="./assets/banner-image3.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image4.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image5.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image6.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                        <a href="" class="carousel-item-link">
-                            <div class="carousel-item ">
-                            <img src="./assets/banner-image7.webp" class="d-block w-100" alt="...">
-                        </div>
-                        </a>
-
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicator"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+    <div id="carouselExampleIndicators" class="carousel slide mb-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/banner-image1.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image2.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image3.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image4.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image5.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image6.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner-image7.webp" class="d-block w-100" alt="...">
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-    <!-- ///////   ACCESSORIES   /////// -->
-     <section class="accessories">
+    <!-- ACCESORIES SECTION -->
+
+    <section class="accessories">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-1">
@@ -164,14 +147,28 @@
                 </div>
                 <div class="col-1">
                     <a href=""><img src="./assets/Washing_machines.webp" alt="" class="img-fluid"></a>
-                
+                </div>
+            </div>
+    </section>
 
+    <!-- EXCITING OFFERS SECTION -->
+
+    <section class="offers mb-5">
+        <div class="container">
+            <h2 class="mb-4 mt-5">Exciting Bank Offers For You</h2>
+            <div class="ribbon-container">
+                <div class="ribbon-track" id="ribbonTrack">
+                    <img src="./assets/ribbon1.webp" alt="Bank 1">
+                    <img src="./assets/ribbon2.webp" alt="Bank 2">
+                    <img src="./assets/ribbon3.webp" alt="Bank 3">
+                    <img src="./assets/ribbon4.webp" alt="Bank 4">
+                </div>
             </div>
         </div>
-     </section>
+    </section>
 
     <!-- ///////   HOT DEAL SECTION   /////// -->
-     <section class="hot-deal">
+    <section class="hot-deal">
         <div class="container">
             <div class="hot-deal-header">
                 <h2>Hot Deals on Home Appliances</h2>
@@ -185,7 +182,7 @@
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 
     <!-- ///////   HOT OFFER SECTION   /////// -->
 
@@ -205,7 +202,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
                     <a href="">
                         <img src="./assets/hot-img-2.webp" alt="" class="img-fluid hot-img">
-                    </a>    
+                    </a>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
@@ -223,24 +220,70 @@
         </div>
     </section>
 
-    <!-- ///////   SUMMER DEALS SECTION   /////// -->
-     <section class="summer-deals">
+    <!--  SUMMER DEALS SECTION -->
+    <section class="summer-deals">
         <div class="container">
-            <div class="summer-header">
-                <h2>Summer Special Deals</h2>
-            </div>
-
-            <div class="sec-content">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 summer-img">
-
-                    </div>>
-
+            <h2>Summer Special Deals</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="summer-card">
+                        <img src="./assets/ssd1.webp" alt="" class="img-fluid">
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="summer-card-text">
+                            <h4>Croma 60 Liters Air Cooler</h4>
+                            <p>₹7,999.00 <del>₹14,500.00</del></p>
+                            <p><i class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star empty-star"></i><i
+                                    class="fa-solid fa-star empty-star"></i><i
+                                    class="fa-solid fa-star empty-star"></i><i class="fa-solid fa-star empty-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="summer-card">
+                        <img src="./assets/ssd2.webp" alt="" class="img-fluid">
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="summer-card-text">
+                            <h4>Croma 7 in 1 Convertible 1</h4>
+                            <p>₹28,990.00 <del>₹37,000.00</del></p>
+                            <p><i class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star color-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="summer-card">
+                        <img src="./assets/ssd3.webp" alt="" class="img-fluid">
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="summer-card-text">
+                            <h4>Croma 7 in 1 Convertible 1.5</h4>
+                            <p>₹31,990.00 <del>₹42,000.00</del></p>
+                            <p><i class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star empty-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="summer-card">
+                        <img src="./assets/ssd4.webp" alt="" class="img-fluid">
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="summer-card-text">
+                            <h4>Croma 40 Litres Air Cooler </h4>
+                            <p>₹5,999.00 <del>₹11,500.00</del></p>
+                            <p><i class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i
+                                    class="fa-solid fa-star color-star"></i><i class="fa-solid fa-star empty-star"></i>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 
     <!-- DEALS SECTION -->
     <section class="deals mt-5">
@@ -282,7 +325,7 @@
         </div>
     </section>
 
-    <!-- CAROUSEL SECTION -->
+    <!-- CAROUSEL 2 SECTION -->
     <div id="carouselExampleIndicators" class="carousel slide mt-5 mb-5">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -453,7 +496,7 @@
     <section class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-end border-white">
                     <p class="contact">Connect with us</p>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="Invalid Email Address">
@@ -477,7 +520,7 @@
                     <p class="copyright">© Copyright 2025 Croma. All rights
                         reserved</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-end border-white">
                     <p class="useful">Useful Links</p>
                     <div class="useful-links">
                         <ul>
@@ -507,8 +550,7 @@
                     <p class="products">Products</p>
                     <div class="products-links">
                         <ul>
-                            <li><a href="#">Televisions &
-                                    Accessories</a></li>
+                            <li><a href="#">Televisions & Accessories</a></li>
                             <li><a href="#">Home Appliances</a></li>
                             <li><a href="#">Phones &amp Wearables</a></li>
                             <li><a href="#">Computers &amp Tablets</a></li>
@@ -517,15 +559,12 @@
                             <li><a href="#">Health &amp Fitness</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Grooming &amp Personal
-                                    Care</a></li>
-                            <li><a href="#">Cameras &amp
-                                    Accessories</a></li>
+                            <li><a href="#">Grooming &amp Personal Care</a></li>
+                            <li><a href="#">Cameras &amp Accessories</a></li>
                             <li><a href="#">Smart Devices</a></li>
                             <li><a href="#">Gaming</a></li>
                             <li><a href="#">Accessories</a></li>
                             <li><a href="#">Top Brands</a></li>
-
                         </ul>
                     </div>
                 </div>

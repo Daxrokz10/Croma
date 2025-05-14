@@ -43,12 +43,89 @@ body{
     border-radius: 10px;
 }
 
+/* ACCESSORIES SECTION */
+
+.accessories{
+    margin-bottom: 20px;
+}
+.accessories .col-1{
+    margin: auto;
+}
+.accessories .col-1 img{
+    border: 0;
+    border-radius: 8px;
+}
+
+/* RIBBON */
+
+.ribbon-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.ribbon-track {
+    display: inline-flex;
+    animation: scroll-left 20s linear infinite;
+}
+
+.ribbon-track img {
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 5px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 /* DEALS SECTION */
 
 .deals img{
     border: 0;
     border-radius: 8px;
+}
+
+
+/* SUMMER DEALS SECTION */
+
+.summer-deals .summer-card{
+    background-color: #121212;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.summer-deals .fa-heart{
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+    font-size: 25px;
+}
+.summer-deals .fa-heart:hover{
+    color: #05dc94;
+}
+.summer-deals p{
+    font-size: 20px;
+}
+.summer-deals p del{
+    font-size: 16px;
+    color: #9a9a9a;
+}
+.summer-deals p .empty-star{
+    color: #9a9a9a;
+    margin: 3px;
+}
+.summer-deals p .color-star{
+    color: #05dc94;
+    margin: 3px;
 }
 
 /* EXPERIENCE */
